@@ -1,0 +1,13 @@
+# Guerra JoSUE
+# EJEMPLO2
+#matrices
+print("\nElemento de cada fila: ")
+matriz = [[1,4,5],[-5,8,9]]
+long= len(matriz)
+for e in range(long):
+    print(matriz[e][-1])
+
+columna= []
+for fila in matriz:
+    columna.append(fila[2])
+print(columna)

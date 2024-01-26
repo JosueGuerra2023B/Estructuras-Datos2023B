@@ -1,0 +1,24 @@
+# Guerra JoSUE
+# EJEMPLO2
+#matrices
+print("\nMatriz en fila: ")
+matriz = [[8,14,-6],
+          [12,-7,4],
+          [-11,3,21]]
+for fila in matriz:
+    print(fila)
+print("\nLos elementos de la matriz: ")
+for fila in matriz:
+    for elemento in fila:
+        print(elemento)
+        
+print("\nLos elementos de la matriz ordenada: ")
+for row in matriz:
+    for elemento in row:
+        print(elemento, end=" ")
+    print()
+
+print("\nUltimos elemtos de cada fila: ")
+long= len(matriz)
+for e in range(long):
+    print(matriz[e][-1])
