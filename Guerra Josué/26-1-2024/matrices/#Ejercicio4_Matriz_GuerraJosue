@@ -1,0 +1,23 @@
+# Guerra JoSUE
+# EJEMPLO2
+# Generar una matriz con elementos enteros desde el teclado
+filas = int(input("Inserte el número de filas: "))
+columnas = int(input("Ingrese el número de columnas: "))
+matriz = []
+
+for i in range(filas):
+    fila = []
+    for elemento in range(columnas):
+        elemento = int(input("Ingrese el elemento: "))
+        fila.append(elemento)
+    matriz.append(fila)
+
+print("\nMatriz en formato de matriz:")
+for fila in matriz:
+    print(fila)
+
+print("\nLos elementos de la matriz ordenada: ")
+for row in matriz:
+    for elemento in row:
+        print(elemento, end=" ")
+    print()
